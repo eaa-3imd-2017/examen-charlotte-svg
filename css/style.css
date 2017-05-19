@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+	
+	@font-face{
+    font-family : "turbo";
+    src:url(../fonts/BatonTurboWeb-Book.woff);
+	font-weight:normal;
+	}
+	
+	@font-face{
+		font-family : "turbobold";
+    src:url(../fonts/BatonTurboWeb-Bold.woff);
+	font-weight:bold;}
+
+body{
+	font-family: "turbo";
+	margin-top: 100px;
+	background-image: url(../SVG/fond.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 100px;
+}
+	
+	
+	
+		
+
+	.container {
+	margin-top: 100px;
+	padding: 0;
+	margin-left:40px;
+	margin-right:40px;
+
+		}
+		
+		
+		
+	@media (min-width: 0px) {	
+	#regionportugal{	
+		position: relative;
+		display:inline-block;
+		height:490px;				}
+	
+	.portu{
+		width:635px;
+		height:698px;
+		display:inline-block;}
+	
+	#regionsuisse{position: relative;
+		display:inline-block;
+		
+		}
+	
+	.suisseregion{
+		width:635px;
+		height:698px;
+		display:inline-block;}
+		
+		
+			h2{
+		font-size: 15px;
+		width: 320px;
+		border: 3px solid #006600;
+		border-radius: 10px;	
+}}
+	
+	
+	
+
+@media (min-width: 576px) {	
+h2{
+		font-size: 15px;
+		width: 320px;
+		border: 3px solid #006600;
+		border-radius: 10px;	
+}
+		
+		}}
+
+	
+@media (min-width: 768px) {	
+	
+		
+	
+	h2{
+		font-size: 18px;
+		width: 450px;
+		border: 3px solid #006600;
+		border-radius: 10px;	
+}
+		
+		}
+		  
+
+
+	@media (min-width: 1200px) {	
+	h2{
+	font-size: 20px;
+	width: 550px;
+	border: 3px solid #006600;
+	border-radius: 10px;	}}	
+	
+	
+		
+		
+		
+		#regionportugal{	
+		position: relative;
+		display:block;
+		height: calc(100vh - 20em);
+	}
+	
+	.portu{
+		width:300px;
+		height:698px;
+		display:inline-block;}
+	
+	#regionsuisse{
+		position: relative;
+		display:block;
+		width: calc(100vh - 30em);
+		
+		}
+	
+	.sui{
+		right:50px;
+		width:300px;
+		height:698px;
+		display:inline-block;}
+		
+		
+	p{
+		width:150px;
+		border: 3px solid #006600;
+	border-radius: 10px;	}
+		
+	.list{
+		width:150px;
+		border: 3px solid #006600;
+	border-radius: 10px;	}
+	
+	h2{
+		border: 3px solid #006600;
+	border-radius: 10px;	}
+	
+	
+	.haut{
+		height:200px;}
